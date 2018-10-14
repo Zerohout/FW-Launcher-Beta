@@ -1,0 +1,1755 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="&gt;&gt;tpHelpAddAcc.Name" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Name" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Name" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tcAccManHelp.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Top</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="tcAccManHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tcAccManHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>675, 311</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="tcAccManHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;tcAccManHelp.Name" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tcAccManHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabControl, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tcAccManHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tcAccManHelp.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tb3.Name" xml:space="preserve">
+    <value>tb3</value>
+  </data>
+  <data name="&gt;&gt;tb3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb3.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Name" xml:space="preserve">
+    <value>btnHelpAddAccShowPass</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tb2.Name" xml:space="preserve">
+    <value>tb2</value>
+  </data>
+  <data name="&gt;&gt;tb2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb2.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Name" xml:space="preserve">
+    <value>btnHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Name" xml:space="preserve">
+    <value>tbHelpAddAccPass</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Name" xml:space="preserve">
+    <value>tbHelpAddAccLogin</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Name" xml:space="preserve">
+    <value>tbHelpAddAccName</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;tb1.Name" xml:space="preserve">
+    <value>tb1</value>
+  </data>
+  <data name="&gt;&gt;tb1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb1.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="tpHelpAddAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpHelpAddAcc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpHelpAddAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>667, 285</value>
+  </data>
+  <data name="tpHelpAddAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="tpHelpAddAcc.Text" xml:space="preserve">
+    <value>Создание аккаунта</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.Name" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpAddAcc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tb3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 127</value>
+  </data>
+  <data name="tb3.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tb3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>288, 114</value>
+  </data>
+  <data name="tb3.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="tb3.Text" xml:space="preserve">
+    <value>
+Вместо клика по кнопке "Добавить данные", 
+можно воспользоваться клавишей "Enter".
+
+Действие не произойдет, если кнопка "Добавить данные" не активна.
+
+Клавиша "Esc" вернет текст в полях по умолчанию.</value>
+  </data>
+  <data name="tb3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tb3.Name" xml:space="preserve">
+    <value>tb3</value>
+  </data>
+  <data name="&gt;&gt;tb3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb3.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb3.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnHelpAddAccShowPass.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnHelpAddAccShowPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>369, 59</value>
+  </data>
+  <data name="btnHelpAddAccShowPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
+  <data name="btnHelpAddAccShowPass.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Name" xml:space="preserve">
+    <value>btnHelpAddAccShowPass</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAccShowPass.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tb2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 127</value>
+  </data>
+  <data name="tb2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tb2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>357, 114</value>
+  </data>
+  <data name="tb2.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="tb2.Text" xml:space="preserve">
+    <value>
+Выделить текст в поле можно  двойным нажатием ЛКМ.
+
+После заполнения первого поля, перейти на следующее поле можно клавишей "Tab"
+
+Пароль можно просмотреть, зажав кнопку с изображением глаза.
+
+</value>
+  </data>
+  <data name="tb2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tb2.Name" xml:space="preserve">
+    <value>tb2</value>
+  </data>
+  <data name="&gt;&gt;tb2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb2.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb2.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHelpAddAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 85</value>
+  </data>
+  <data name="btnHelpAddAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 36</value>
+  </data>
+  <data name="btnHelpAddAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnHelpAddAcc.Text" xml:space="preserve">
+    <value>Добавить данные</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Name" xml:space="preserve">
+    <value>btnHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpAddAcc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 62</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>126, 13</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Пароль учетной записи</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 36</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>119, 13</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Логин учетной записи</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>402, 10</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 13</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Любое удобное для вас название</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="tbHelpAddAccPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 59</value>
+  </data>
+  <data name="tbHelpAddAccPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 20</value>
+  </data>
+  <data name="tbHelpAddAccPass.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbHelpAddAccPass.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Name" xml:space="preserve">
+    <value>tbHelpAddAccPass</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccPass.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="tbHelpAddAccLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 33</value>
+  </data>
+  <data name="tbHelpAddAccLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="tbHelpAddAccLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbHelpAddAccLogin.Text" xml:space="preserve">
+    <value>Логин (почта)</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Name" xml:space="preserve">
+    <value>tbHelpAddAccLogin</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccLogin.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tbHelpAddAccName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>263, 7</value>
+  </data>
+  <data name="tbHelpAddAccName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>133, 20</value>
+  </data>
+  <data name="tbHelpAddAccName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbHelpAddAccName.Text" xml:space="preserve">
+    <value>Имя аккаунта</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Name" xml:space="preserve">
+    <value>tbHelpAddAccName</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpAddAccName.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="tb1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 6</value>
+  </data>
+  <data name="tb1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tb1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 115</value>
+  </data>
+  <data name="tb1.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tb1.Text" xml:space="preserve">
+    <value>Для создания Аккаунта и добавления его в 
+списки аккаунтов, заполните ВСЕ поля 
+данными и нажмите кнопку
+ "Добавить данные".
+
+Кнопка будет активна только после заполнения ВСЕХ полей данными.</value>
+  </data>
+  <data name="tb1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;tb1.Name" xml:space="preserve">
+    <value>tb1</value>
+  </data>
+  <data name="&gt;&gt;tb1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tb1.Parent" xml:space="preserve">
+    <value>tpHelpAddAcc</value>
+  </data>
+  <data name="&gt;&gt;tb1.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Name" xml:space="preserve">
+    <value>btnHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Name" xml:space="preserve">
+    <value>btnHelpModAccShowPass</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Name" xml:space="preserve">
+    <value>tbHelpModAccPass</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Name" xml:space="preserve">
+    <value>tbHelpModAccLogin</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Name" xml:space="preserve">
+    <value>tbHelpModAccName</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Name" xml:space="preserve">
+    <value>lbHelpModAccList</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="tpHelpModAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpHelpModAcc.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 3, 3, 3</value>
+  </data>
+  <data name="tpHelpModAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>667, 285</value>
+  </data>
+  <data name="tpHelpModAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tpHelpModAcc.Text" xml:space="preserve">
+    <value>Изменение данных аккаунта</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Name" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpModAcc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="textBox5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 7</value>
+  </data>
+  <data name="textBox5.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 121</value>
+  </data>
+  <data name="textBox5.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="textBox5.Text" xml:space="preserve">
+    <value>Список аккаунтов после двойного клика
+во избежание не нужных действий и ошибок заблокируется.
+
+Не паникуйте, после нажатия на кнопку "Изменить данные" 
+или отмены действий, он автоматически разблокируется.
+
+Кнопка "Изменить данные" так же будет не активна 
+до тех пор, пока данные во ВСЕХ полях не будут изменены.</value>
+  </data>
+  <data name="textBox5.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Name" xml:space="preserve">
+    <value>textBox5</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox5.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox5.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHelpModAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 85</value>
+  </data>
+  <data name="btnHelpModAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 43</value>
+  </data>
+  <data name="btnHelpModAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="btnHelpModAcc.Text" xml:space="preserve">
+    <value>Изменить данные</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Name" xml:space="preserve">
+    <value>btnHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAcc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnHelpModAccShowPass.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Stretch</value>
+  </data>
+  <data name="btnHelpModAccShowPass.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHelpModAccShowPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>310, 59</value>
+  </data>
+  <data name="btnHelpModAccShowPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>27, 20</value>
+  </data>
+  <data name="btnHelpModAccShowPass.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Name" xml:space="preserve">
+    <value>btnHelpModAccShowPass</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpModAccShowPass.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="tbHelpModAccPass.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 59</value>
+  </data>
+  <data name="tbHelpModAccPass.Size" type="System.Drawing.Size, System.Drawing">
+    <value>128, 20</value>
+  </data>
+  <data name="tbHelpModAccPass.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tbHelpModAccPass.Text" xml:space="preserve">
+    <value>Пароль</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Name" xml:space="preserve">
+    <value>tbHelpModAccPass</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccPass.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tbHelpModAccLogin.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 33</value>
+  </data>
+  <data name="tbHelpModAccLogin.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="tbHelpModAccLogin.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tbHelpModAccLogin.Text" xml:space="preserve">
+    <value>Логин (почта)</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Name" xml:space="preserve">
+    <value>tbHelpModAccLogin</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccLogin.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="tbHelpModAccName.Location" type="System.Drawing.Point, System.Drawing">
+    <value>176, 7</value>
+  </data>
+  <data name="tbHelpModAccName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 20</value>
+  </data>
+  <data name="tbHelpModAccName.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tbHelpModAccName.Text" xml:space="preserve">
+    <value>Имя аккаунта</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Name" xml:space="preserve">
+    <value>tbHelpModAccName</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;tbHelpModAccName.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 134</value>
+  </data>
+  <data name="textBox1.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>328, 141</value>
+  </data>
+  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>
+Для изменения аккаунта, произведите двойной клик по нему.
+
+Текстовые поля автоматически заполнятся данными аккаунта.
+
+После их изменения нажмите кнопку "Изменить данные".
+
+Данные аккаунта будут тут же изменены, а список аккаунтов разблокирован.</value>
+  </data>
+  <data name="textBox1.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
+    <value>textBox1</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="lbHelpModAccList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 6</value>
+  </data>
+  <data name="lbHelpModAccList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 121</value>
+  </data>
+  <data name="lbHelpModAccList.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Name" xml:space="preserve">
+    <value>lbHelpModAccList</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;lbHelpModAccList.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Name" xml:space="preserve">
+    <value>btnHelpDelAllAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Name" xml:space="preserve">
+    <value>btnHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Name" xml:space="preserve">
+    <value>lbHelpDelAccList</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="tpHelpDelAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 22</value>
+  </data>
+  <data name="tpHelpDelAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>667, 285</value>
+  </data>
+  <data name="tpHelpDelAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tpHelpDelAcc.Text" xml:space="preserve">
+    <value>Удаление аккаунта</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Name" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TabPage, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.Parent" xml:space="preserve">
+    <value>tcAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;tpHelpDelAcc.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="btnReturnFromAccManHelp.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 351</value>
+  </data>
+  <data name="btnReturnFromAccManHelp.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 37</value>
+  </data>
+  <data name="btnReturnFromAccManHelp.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="btnReturnFromAccManHelp.Text" xml:space="preserve">
+    <value>Вернутся назад к Менеджеру аккаунтов</value>
+  </data>
+  <data name="&gt;&gt;btnReturnFromAccManHelp.Name" xml:space="preserve">
+    <value>btnReturnFromAccManHelp</value>
+  </data>
+  <data name="&gt;&gt;btnReturnFromAccManHelp.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnReturnFromAccManHelp.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnReturnFromAccManHelp.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>343, 134</value>
+  </data>
+  <data name="textBox2.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>316, 141</value>
+  </data>
+  <data name="textBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textBox2.Text" xml:space="preserve">
+    <value>
+После изменения данных, вместо клика по кнопке "Изменить данные", 
+можно воспользоваться клавишей "Enter".
+
+Действие не произойдет, если кнопка "Изменить данные" не активна.
+
+Кнопкой Esc можно разблокировать список аккаунтов и 
+вернуть текст в полях по умолчанию</value>
+  </data>
+  <data name="textBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Name" xml:space="preserve">
+    <value>textBox2</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox2.Parent" xml:space="preserve">
+    <value>tpHelpModAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="lbHelpDelAccList.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 3</value>
+  </data>
+  <data name="lbHelpDelAccList.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 121</value>
+  </data>
+  <data name="lbHelpDelAccList.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Name" xml:space="preserve">
+    <value>lbHelpDelAccList</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;lbHelpDelAccList.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="btnHelpDelAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHelpDelAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 3</value>
+  </data>
+  <data name="btnHelpDelAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 52</value>
+  </data>
+  <data name="btnHelpDelAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="btnHelpDelAcc.Text" xml:space="preserve">
+    <value>Удалить данные</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Name" xml:space="preserve">
+    <value>btnHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAcc.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="textBox3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>254, 3</value>
+  </data>
+  <data name="textBox3.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>403, 121</value>
+  </data>
+  <data name="textBox3.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="textBox3.Text" xml:space="preserve">
+    <value>Здесь все просто, перед тем, как удалить аккаунт, 
+выберите его одинарным кликом в списке.
+
+После того, как аккаунт будет выделен, 
+активируется кнопка "Удалить данные".
+
+Нажмите на кнопку (тут клавиша Enter не работает, 
+но работает кнопка "Delete").</value>
+  </data>
+  <data name="textBox3.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Name" xml:space="preserve">
+    <value>textBox3</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox3.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="textBox4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>6, 130</value>
+  </data>
+  <data name="textBox4.Multiline" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="textBox4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>651, 118</value>
+  </data>
+  <data name="textBox4.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="textBox4.Text" xml:space="preserve">
+    <value>
+Клавиша "Esc" снимает выделение с выбранного аккаунта в списке. Все просто и практично.
+
+Кнопка "Удалить ВСЕ аккаунты", как вы уже догадались, удаляет все аккаунты в списке.
+
+Активируется данная только тогда, когда в списке присутствует более одного аккаунта.
+
+Сочетание Shift + Delete так же равно нажатию кнопки "Удалить ВСЕ аккаунты".</value>
+  </data>
+  <data name="textBox4.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
+    <value>Center</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Name" xml:space="preserve">
+    <value>textBox4</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox4.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;textBox4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnHelpDelAllAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnHelpDelAllAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>173, 61</value>
+  </data>
+  <data name="btnHelpDelAllAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 63</value>
+  </data>
+  <data name="btnHelpDelAllAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="btnHelpDelAllAcc.Text" xml:space="preserve">
+    <value>Удалить ВСЕ аккаунты</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Name" xml:space="preserve">
+    <value>btnHelpDelAllAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.Parent" xml:space="preserve">
+    <value>tpHelpDelAcc</value>
+  </data>
+  <data name="&gt;&gt;btnHelpDelAllAcc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <data name="btnNextTabHelpAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnNextTabHelpAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>342, 317</value>
+  </data>
+  <data name="btnNextTabHelpAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>321, 28</value>
+  </data>
+  <data name="btnNextTabHelpAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="btnNextTabHelpAcc.Text" xml:space="preserve">
+    <value>&gt;&gt;&gt;&gt;--Следующая вкладка справки ---&gt;</value>
+  </data>
+  <data name="&gt;&gt;btnNextTabHelpAcc.Name" xml:space="preserve">
+    <value>btnNextTabHelpAcc</value>
+  </data>
+  <data name="&gt;&gt;btnNextTabHelpAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnNextTabHelpAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnNextTabHelpAcc.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="btnPrevTabHelpAcc.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="btnPrevTabHelpAcc.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 317</value>
+  </data>
+  <data name="btnPrevTabHelpAcc.Size" type="System.Drawing.Size, System.Drawing">
+    <value>324, 28</value>
+  </data>
+  <data name="btnPrevTabHelpAcc.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="btnPrevTabHelpAcc.Text" xml:space="preserve">
+    <value>&lt;---Предыдущая вкладка справки --&lt;&lt;&lt;&lt;</value>
+  </data>
+  <data name="&gt;&gt;btnPrevTabHelpAcc.Name" xml:space="preserve">
+    <value>btnPrevTabHelpAcc</value>
+  </data>
+  <data name="&gt;&gt;btnPrevTabHelpAcc.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnPrevTabHelpAcc.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnPrevTabHelpAcc.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 13</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>675, 400</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEASEgAAAEAIAA4VgAAFgAAACgAAABIAAAAkAAAAAEAIAAAAAAAEFYAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAMAAAACAAAAAwAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAACAAAAAgAA
+        AAIAAAADAAAAAwAAAAQAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAEAAAACAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAwAAAAMAAAADAAAAAwAA
+        AAQAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAA
+        AAMAAAADAAAAAwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAwAAAAMAAAAEAQEABQEB
+        AAUBAQAFAQEABQAAAAQAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAMAAAADAAAABAAAAAQBAQAFAQEABQEBAAUBAQAFAAAABAAA
+        AAQAAAADAAAAAwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAMAAAADAAAAAwAA
+        AAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAwAAAAMAAAADAAAAAwAA
+        AAMAAAADAAAAAwAAAAIAAAACAAAAAgAAAAIAAAADAAAAAwAAAAQBAQAFAQEBBgICAQcCAgEHAgIBBwIC
+        AQcBAQAGAAAABAAAAAQAAAADAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAA
+        AAIAAAACAAAAAwAAAAQAAAAEAQEABQEBAQYCAgEHAgIBBwICAQcBAQEGAQEABQAAAAQAAAAEAAAAAwAA
+        AAIAAAACAAAAAgAAAAIAAAADAAAAAwAAAAIAAAACAAAAAwAAAAMAAAADAAAAAwAAAAMAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAADAAAAAwAAAAMAAAAEAAAABAAAAAQAAAAEAAAABAAA
+        AAMAAAADAAAAAwAAAAMAAAADAAAABAEBAAUBAQEGAwMCCAMDAggDAwIKBAQDCgMDAgkDAwIIAgIBBwEB
+        AAUAAAAEAAAAAwAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAwAA
+        AAUBAQAFAgIBBwMDAggDAwIJAwMCCQMDAgkDAwIIAQEBBgEBAAUAAAAEAAAABAAAAAMAAAACAAAAAgAA
+        AAIAAAACAAAAAwAAAAMAAAADAAAAAwAAAAQAAAADAAAAAwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAACAAAAAgAAAAMAAAADAAAABAAAAAQBAQAFAQEABQEBAAUBAQEGAQEABQAAAAQAAAADAAAAAwAA
+        AAMAAAADAAAABAEBAAUCAgEHAwMCCAQEAwoGBgQMBgYEDQUFBA0GBgMLBAQDCgICAQgDAwEGAQEABQAA
+        AAMAAAADAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAADAAAABAEBAQYCAgEHAwMCCQQE
+        AwsGBgQMBgYEDAQEAwsDAwIJAgIBBwEBAQYBAQAFAAAAAwAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAA
+        AAMAAAAEAAAABAAAAAQAAAAEAAAAAwAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAA
+        AAIAAAADAAAABAEBAAUBAQAFAQEBBgICAQcCAgEHAQEBBgEBAAUBAQAFAAAABAAAAAQAAAAEAQEABQEB
+        AAUCAgEHAwMCCQYGAwwHBwQOBwcFDwgIBRAHBwUPBwcFDgYGBAwDAwIKAwMBBgAAAAUAAAADAAAAAgAA
+        AAIAAAACAAAAAgAAAAEAAAABAAAAAgAAAAMAAAAEAQEABQEBAQYDAwIJBgYDCwYGBA0HBwUOBwcFDgYG
+        BA0EBAMLAwMCCQEBAQYAAAAEAAAABAAAAAMAAAADAAAAAwAAAAQAAAAEAQEABQEBAAUBAQAFAQEABQEB
+        AAUAAAAEAAAABAAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAADAAAABAAA
+        AAQBAQAFAgIBBwMDAggDAwIJAwMCCAMDAggCAgEHAQEBBgEBAAUBAQAFAQEABQEBAQYCAgEHBQUDCQYG
+        BAwHBwUOCAgFEAkJBhMKCgcUCQkHEwkJBhEHBwUOBAQDCgICAQcBAQAFAAAABAAAAAIAAAACAAAAAgAA
+        AAEAAAABAAAAAgAAAAMAAAAEAgIBBwMDAgkGBgQMBwcFDwkJBhEKCgYSCQkGEQcHBQ8GBgMLAwMCCQEB
+        AQYAAAAEAAAABAAAAAMAAAADAAAABAAAAAQBAQAFAQEABQEBAQYBAQEGAQEBBgEBAQYBAQAFAAAABAAA
+        AAQAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAADAAAABAEBAAUBAQEGAgIBBwMD
+        AgkEBAMLBAQDCwQEAwoDAwIJAgIBBwEBAQYBAQEGAQEBBgEBAQYCAgEHAwMCCAQEAwsHBwQOCQkGEgwL
+        CBUODQoYDQ0KGQ0NCRgLCwcVCQkGEQYGAwwDAwIIAQEBBgAAAAQAAAADAAAAAgAAAAIAAAACAAAAAwIC
+        AAQCAgEHBAQDCgYGBA0JCQYRCQkHEwsLCBUMCwgVCQkHEwcHBQ8GBgQMAwMCCAEBAQYBAQAFAAAABAAA
+        AAQAAAAEAQEABQEBAQYBAQEGAQEBBgEBAQYCAgEHAgIBBwEBAQYBAQEGAQEABgICAQcAAAABAAAAAQAA
+        AAEAAAABAAAAAgAAAAIAAAACAAAAAgAAAAIAAAADAAAAAwEBAAUBAQEGAgIBBwMDAgkGBgQLBgYEDQYG
+        BA0GBgQMBAQDCgMDAggCAgIIAQEBBgEBAQYBAQEGAgIBBwMDAgkGBgQNCgoGEgwMCRcQEAscEhANHxAQ
+        DB8PDwsdDQ0JGAkJBxMHBwQOBAQDCgICAQcBAQAFAQEABQAAAAQAAAAEAQEABQICAQcEBAMKBgYEDQkJ
+        BhEKCggUDQ0JGA0NChoMDAkXCgoHFAcHBQ8GBgMLAwMCCQEBAQYBAQAFAQEABQEBAAUBAQAFAQEBBgIC
+        AQcCAgEHAgIBBwICAQcCAgEHAgIBBwICAQcBAQEGAQEABQAAAAQAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAIAAAACAAAAAgAAAAIAAAADAAAAAwAAAAQBAQAFAgIBBwMDAggEBAMLBgYEDAcHBQ8HBwUPBgYEDQYG
+        BAwEBAMKAwMCCQICAQcBAQEGAQEBBgMDAgkGBgQNCQkHEw0NChkQEAwfFBQPJRUVECcUFBAmEhIOIg8P
+        Cx0MDAkXFBIQHwkJBhAEBAMKAwMCCAICAggDAwIIAwMCCQYGAwsHBwUPCQkHEwwMCRcPDwsbEBAMHhAQ
+        DB4NDQoaCwsIFQgIBRAGBgQLAwMCCQICAQcBAQEGAQEBBgEBAQYCAgEHAgIBBwMDAggDAwIIAwMCCAMD
+        AggDAwIIAwMCCAICAQcBAQEGAQEABQAAAAQAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAwAAAAMAAAAEAQEABgICAQcDAwIJBAQDCwUFBA0ICAUQCQkGEQcHBQ8HBwUOBgYEDQQE
+        AwsDAwIIAwMCCQQEAwsHBwUPCwsIFg8PCxsUFA4jGRkTLBwbFTIbGxUxGhoULxcXEismJiA6RkE5XRwa
+        FygJCQcTCQkGEQgIBRAJCQUQCQkGEQoKBxQNDQkYDg4LHBISDSATEw8kFBQPJRMSDSEQDgscCwsIFgkJ
+        BhEGBgQMBAQDCgMDAggCAgEHAwMCCAICAQcDAwIIAwMCCAMDAgkDAwIJAwMCCQMDAgkDAwIIAwMCCAIC
+        AQcBAQEGAQEABQAAAAQAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAwAA
+        AAMAAAADAAAABAEBAAUDAwEGAwMCCAQEAwsGBgQNCQkGEQsLCBYLCwcVCQkHEwkJBhIICAUQBwcFDwkJ
+        BhELCwgWDw8LGxISDiIYGBIqHhwWMyMjGz4kJBxAJyYdQi4tJUloYVeFYVdKhj87NFU5NjBNEBAMHw8P
+        DB0PDwwdEBAMHhMSDSEUEw8lFxcRKBoZEywbGxUxGRkSLBQUDyUQEAweDAwJFwkJBhEGBgQNBAQDCwUF
+        AwkDAwIJAwMCCQMDAgkDAwIJBAQDCgQEAwoEBAMKBAQDCgQEAwoDAwIJAwMCCAMDAggBAQEGAQEABQAA
+        AAQAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAMAAAAEAQEBBgMDAggEBAMLBwcFDgkJBxMPDwsdEA8MHg8PCxsPDwsbEA4LHA8PDB0SEg0gFBQPJRgY
+        EiseHRY0IyEaPCspIEkwMCVTPz0zZGNeUoeLhHWwintnvnFoXJpqYleIHx4XNR8fFzUcHBUyHBwVMh4d
+        FjQfHxc2ISEYOSUkGz8jIRo8HBsVMhgYEioTEw0hDQ0KGQkJBxMHBwUPBgYEDAQEAwsEBAMLBAQDCwQE
+        AwsEBAMLBAQDCwQEAwsGBgMMBAQDCwQEAwoEBAMKAwMCCQICAQcBAQEGAAAABAAAAAMAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAIAAAACAAAAAwEB
+        AAUDAwIIBgYEDAgIBRALCwgWExMPJBkYEy0VFRAnFRUQJxYWESkYGBIrGhoUMB8fFzYlJBs/KykgSjQz
+        KFk/PTFqWFRGhYl/b7apmIDlloNx852LevKZiXjRSEQ6a2JbTog2NStWKyshTCsrIUsrKyFLMC4kUjAw
+        JVMoJx5FIiAZOhoaFC8UFA8lDw8LGwwLCBUJCQYRBwcFDwcHBQ4GBgQNBgYEDQYGBAwGBgQMBgYEDQcH
+        BQ8GBgQNBgYEDAQEAwsEBAMKAwMCCQICAQcBAQEGAAAABAAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAMBAQAFAwMCCQYG
+        BA0JCQcTDw8LGxgXEismJRxBIyEaPB8eFzY0NCtOKykjRSYlHUMtKyJMXFZJg4h6a71+cGDHkn5q74Zz
+        Yf6Ec2X/jX1x/4l3af+WgnL/gnFj+qCMevqEe22+ZF1RkDw6LmVBQTNuQEAybz49MWguLSNQKCYeRB8f
+        FzYWFhEpEBAMHw0NChkLCwgVCgoGEgkJBhEICAUQCAgFEAkJBhEKCgcUCgoGEgcHBQ4GBgQNBgYEDAQE
+        AwsEBAMKAwMCCQICAQcBAQEGAAAABAAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAADAwMBBgQEAwsJCQYRDw0KGhQU
+        DiMfHhc1NjQpXDY2Kl5RTUJzQ0A2Yjo4LV1eWU2JkXtk64dyYf+djYD/iH5z/4F4cP94cWn/c2tj/312
+        bf+BeG7/kol+/5GEdv+gjXv/qZaD/pKGdNSPg2/EU1FBh2xmWps2NipeLCsiTSMhGjwaGhMuEhIOIxAQ
+        CxwNDQkYCwsIFgsLCBUMDAkXEBALHA8PCxsJCQcTBwcFDwcHBQ8HBwUOBgYEDQYGBAwEBAMKAwMCCQIC
+        AQcBAQAFAAAABAAAAAQAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAABAMDAgkICAUQDQ0KGRMTDyQaGhQvJiYeRERC
+        NHN0bl2okId3uXhuXLGTfWn+lYJx/3lwZv9dWE//aGJZ/2FbUf9iXVX/bWdd/19ZTf9YUUf/ZF5S/15Y
+        Tf9ya2L/kYR3/6WUg/+tmoj5koh2zI6Cc8pJRzt3NDMpWSYlHUEcGxUyFRUQJxMSDSEQEAwfEhINIRgY
+        ESoXFxIrDw8LHQkJBxMJCQYRCAgFEAcHBQ8HBwUOBgYEDQYGBAwEBAMKAwMCCAICAQcBAQAFAAAABAAA
+        AAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAADAAAAAwICAQsHBwQODAwJFxMTDyUcHBU0LCwkSEZEOWqTiHTJq5aA/6qW
+        hv+OgnP/Y11U/2BbUv9ZU0v/ZF5U/3ZwZP9lX1X/ZWBU/2JcUP9iW0//dG5g/2VfVP9XUkj/bWdb/3Jr
+        Yf+YjID/rZ2N/6aWh/tvaV2pQD4zaCopH0chIBg4GhoUMBsbFTElJBs/KCgeRRoaFC8PDwsbDAwIFQkJ
+        BxMKCgYSCAgFEAcHBQ8GBgQNBgYEDAQEAwsDAwIJAwMCCAICAQcBAQAFAAAABAAAAAQAAAABAAAAAQAA
+        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
+        Rv9ZaF//XW1k/1ttZ/9gcWn/VmVe/1FgWP9XZ2D/S15d/1BiYf9PrNL/GWGXuBF8z+MIXL7dH2CIoigs
+        KEUZHRwtFBgYIxIWFh8RFRUdFhwcJAMDAgk9SVNeeKXk/y6F2fcpP0xVAAAABAAAAAQAAAADL2WFmiqU
+        1v8EDCaoAAAADwAAAAIAAAACAAAAAQAAAAIAAAABAAAAAgAAAAIAAAACGCAlKhRy1/wcdtb/JkR68SA8
+        cNwgNVrYIDZZ1y1Iatk3ZKLtAg0pfAcHBQ8JCQcTDQ0JGRIQDSATEw4kFRUQKBcaGjoRPGaFEGqlvgxd
+        r8kyhbXyOFpx/ys+SP8oQE7/LURQ/0tcWP9MXVn/QlJN/1lsZv9FVE3/SlpS/0hXT/9QYVn/XnFq/1Jj
+        XP9dcGn/VGZf/0VVT/9CVlf/PWN0/1iYsf87tuX5EUBzkApao7gHSaHHEBojPBgYESwYGBItDAwJGgcH
+        BREGBgQNBAQDCwoMCxFGYoSePGm46ys7RE4BAQEGAQEABQAAAAQpPkpaN4a98CWU1v8uU4DtAAADHwAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIBAgIIKDtQjg5p0P4SbtT/CXHZ/wuH4/8ek+f/CXfc/wVy
+        3P8sitv/BB1d0QcHBhsJCQcTCgoHFAsKCBYNDQoaEBAMHhITEioRLkhoEDdkgQpVq8MqdbPTNIG3+DRX
+        df8mRVb/MEFC/zpKSP8uPTv/PExJ/09jX/87S0b/Pk5J/0dYUf9NYFn/WG5n/1JlXf9OYVj/S15X/zxN
+        S/9DWWH/Vo2r/0G04f4lseLsDHfH1wg4dZMIUZy1DQ0OIwwMCRoODgscEhINIgwMCBcHBwUOBgYEDAwN
+        DRQwPklYFhobIgMDAggCAgEHAQEBBgEBAAUhLC84KTg+SCs9RE4lNjxFAAAAAwAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAANEV2JuS3ynxTFwqMY4d6rFLnWsxS9/sMQvfK/EMHiuxS9/ssU7iLzSOlx9rwYG
+        BREHBwUPBwcFDggIBRAJCQcTDAwIFwwRGC8OFB44DX25yB48X3otmdflHmu12iFboNwtX43/LEFL/yc1
+        N/8rOTf/MkNA/zZGQ/8zQz//PE1I/z9RTP9FWFL/SFxW/0JVT/8/UU3/OFFW/0Ficf9CiLb+LpDO9Sep
+        5PUQjcjWDCU/WgYxaoEHNGd/Cg0QJQoKCBYLCwcVCgoHFAwMCRcKCgcUBgYEDQQEAwsEBAMKAwMCCQMD
+        AggDAwIIAgIBBwEBAQYBAQAFAQEABQAAAAQAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAADAAAABAEBAQUBAQEFAgIBBwICAgcDAwIIAwMCCQQEAwoGBgUNCQoIEAYGAwsGBgQMBAQDCwQE
+        AwoFBQQNBwcFEgkKCBgKERwyCzBMYhxmg5Mop9nmL4OiuBaF2OMVa7jWJWmq8jBYev8rQ1T/LD0//y4+
+        Pf82SET/OEpG/zdIRf84TEv/Ok9P/zRPV/8/XWv/P4Oh/zWGuPIrkcvfNprL3SiCxOYUToalCUh7jgVL
+        hZMIDRIfCREYJwoKBhIKCgYSCgoGEgkJBhEJCQYRCQkGEQYGBA0EBAMLBAQDCgMDAgkDAwIIAwMCCAIC
+        AQcBAQEGAQEABQEBAAUAAAAEAAAABAAAAAMAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAADAAAABAAA
+        AAQBAQAFAQEBBgICAQcCAgEHAwMCCAMDAgkEBAMKBAQDCgMDAgkCAgEHAQEBBgMDAQYDAwIIBgQDDAcH
+        BREICAYTCQsNHR1uipUrj6q4ChgnPAtbs8kNacTXE1qbsyd6utglhsfzJm2u/R9wr/8pWoT/NlJe/yVn
+        jP8dcbH/OW+U/yiLwf4to9L1P7zg8COV2ugxpt7rHIvf6yZ0n8AnMkB2DDZWaQh+tr8ICAUQBwcGEQgI
+        BRAICAUQCQkFEQgIBRAHBwUPBwcFDgcHBQ4GBgQMBAQDCgQEAwoDAwIIAwMCCAICAQcBAQEGAQEBBgEB
+        AAUBAQAFAAAABAAAAAQAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAADAAAAAwAAAAQBAQAFAQEABQEB
+        AQYBAQEGAgIBBwMDAggDAwIIAgIBBwEBAQYAAAAEAAAABAAAAAQBAQEGAwMCCQUFBA0GBgUPCgoHFBMY
+        GjAjgcHOAi1hdAEfTGUdaKe6CyxUbSqc1OItcJ64GF6buxx+v9gSpu/9IobN/xme3P0bicPiGX7F4RWe
+        6PEdltbmHpbQ4y2MtckwibrND2i/zxZek6woLTJiExgcMwcmQU0EBAMMBgYEDAcHBQ4HBwUPBwcFDwcH
+        BQ8HBwUOBgYEDQYGBAwGBgQMBAQDCwQEAwoDAwIJAwMCCAICAQcCAgEHAQEBBgEBAAUBAQAFAQEABQAA
+        AAQAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAADAAAAAwAAAAQBAQAFAQEABQEBAAUBAQEGAQEBBgEB
+        AQYBAQEGAQEABQAAAAQAAAADAAAAAwAAAAMBAQAFAwMCCAQEAwsGBgQNDQ0JGAcHBhIIOW1/DFyqvQAG
+        Eh8RR2J2Bz9texWA0uImf8rcNa/l7SqV0uImjsPbGrXz+xaT2usRZazMGpPa6AxmvdkRYJ+5DmChvB5n
+        jKNJudznETRlhxAiOVMVGiA8HR0WNQcICBMDAwIJBAQDCgYGAwwGBgQNBgYEDQcHBQ4GBgQNBgYEDQYG
+        BAwEBAMLBAQDCgMDAgkDAwIJAwMCCAICAQcCAgEHAQEBBgEBAQYBAQAFAAAABAAAAAQAAAABAAAAAQAA
+        AAEAAAABAAAAAgAAAAIAAAACAAAAAwAAAAMAAAAEAQEABQEBAAUBAQAFAQEABQEBAAUBAQAFAAAABAAA
+        AAMAAAADAAAAAgAAAAQBAQAFAwMCCAMDAgoHBwUPCQkGEAAAAAQABQ0REHK0wAAGEyAKMk1cCzxpeQpQ
+        pbsOQ4KYObHf6B9Xf50YZ6bFD4DR6A1qutEQb7rTK2mFmiGXz9sRM0liDmWcsA0tWHQjjbvLEjNWbwwU
+        HTANDQkYGBYRKQsLCBUDAwIIAwMCCAMDAgkEBAMLBAQDCwYGBAwGBgQMBgYEDAQEAwsEBAMKBAQDCgMD
+        AgkDAwIIAwMCCAICAQcCAgEHAQEBBgEBAAUAAAAEAAAABAAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAIAAAACAAAAAgAAAAMAAAAEAAAABAEBAAUBAQAFAQEABQEBAAUAAAAEAAAAAwAAAAMAAAADAAAAAwAA
+        AAQBAQEGAwMCCAQEAwoHBwQOAgIBCQAAAAMBDio1AAsdJgAAAAIDH05hBBk4SQYYOlQTN1BoM77w9RFT
+        gJQaPmeLEmarxw91t9AQPmeFGERWbRB9vswLJ0VbDT1sgwgyaYIKKVJoDSAtPQsLBxUJCQcTDAwJFw8P
+        DB0DAwIJAgIBBwMDAggDAwIJAwMCCQQEAwoEBAMKBAQDCgQEAwoDAwIJAwMCCQMDAggDAwIIAgIBBwEB
+        AQYBAQEGAQEABQEBAAUAAAAEAAAAAwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAwAA
+        AAMAAAAEAAAABAAAAAQBAQAFAQEABQAAAAQAAAAEAAAAAwAAAAMAAAADAAAABAEBAAUBAQEGAwMCCAQE
+        AwoDAwIIAQEABgAAAAMAAAADAAAAAQAAAAIBCRsnAgMGDwUHDhwMKDhFE2KSpA4zVnMcL0NmJSciShhj
+        iaULMlt3DFyTpQdYoLUIGTVOCQwPIQkRIDcJCxQrCAkIFgkJBhEICAUQCAgFEAwMCRcICAUQAwMCCAIC
+        AQcCAgEHAwMCCAMDAggDAwIJAwMCCQMDAgkDAwIIAgIBBwICAQcBAQEGAQEBBgEBAAUBAQAFAQEABQMD
+        AQYAAAADAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAMAAAADAAAABAEB
+        AAUBAQAFAQEABQEBAAUBAQAFAAAABAAAAAQAAAAEAQEABQEBAQYCAgEHAwMCCAICAggBAQAFAAAAAwAA
+        AAIAAAACAAAAAgAAAAIAAAAEAQEBBgQFChcHCQsVCwsLGw0rUWwZJzFSIB8YNxZ5oK8MHjFOBzNecwgL
+        DhwHBwURBgYFDwYGCBQFBQQNBgYEDAUFBA0GBgQNBgYEDQcHBQ4KCgYSBAQDCwICAQcBAQEGAQEBBgIC
+        AQcCAgEHAgIBBwICAQcBAQEGAQEBBgEBAAUAAAAEAAAABAAAAAQAAAAEAAAABAAAAAMAAAACAAAAAgAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAMAAAAEAAAABAEBAAUBAQAFAQEABQEB
+        AQYBAQAFAQEBBgEBAQYBAQEGAQEBBgICAQcCAgEHAgIBBwEBAQYAAAAEAAAAAQAAAAEAAAABAAAAAgAA
+        AAIAAAADAQEABQMDAwwGBQUPCBAfNg8WITsTIzBMFxcSKxJnhZEKOVx1BwoPIgYFBA0EBAMLAwMCCQIC
+        AggCAgIHAgIBBwMDAggDAwIJBAQDCgQEAwsGBgQNBgYEDAMDAggBAQEGAQEABQEBAQYBAQEGAQEBBgEB
+        AAUBAQAFAAAABAAAAAMAAAADAAAAAwAAAAMAAAADAAAAAwAAAAMAAAACAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAMAAAAEAQEABQEBAAUBAQEGAQEBBgEBAQYBAQEGAgIBBwIC
+        AQcBAQEGAgIBBwICAQcCAgEHAQEBBgEBAAUAAAACAAAAAQAAAAEAAAABAAAAAgAAAAMAAAAEAQEABQIC
+        AQcEBAMLBwoQHw0NDB4SEA0gEA8MHgpTd4AGDBAcBAsYKgMDAgkBAQEGAQEABQAAAAQAAAAEAAAABAEB
+        AAUDAwEGAgIBBwMDAggDAwIJBAQDCwMDAggCAgEHAQEABQEBAAUBAQAFAQEABQAAAAQAAAADAAAAAwAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAACAAAAAgAAAAMAAAADAAAABAEBAAUBAQAFAQEBBgEBAQYBAQEGAgIBBwICAQcCAgEHAQEBBgEB
+        AQYBAQEGAQEABQAAAAMAAAABAAAAAQAAAAEAAAABAAAAAgAAAAMAAAAEAAAABAEBAQYDAwIJBQUEDQkI
+        BhMMDAgXCQkHFQcMDhcEBAILAgICCgEBAAYAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAMAAAAEAQEABQEB
+        AQYCAgEHAgICCAICAQgCAgEHAQEABQAAAAQAAAADAAAAAwAAAAMAAAADAAAABAAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAA
+        AAIAAAADAAAAAwAAAAQAAAAEAQEABQEBAAUBAQAFAQEBBgEBAQYBAQAFAQEABQEBAAUAAAAEAAAABAAA
+        AAIAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAABAAAAAUCAgEHAwMCCQYGBAwGBgQNBgYDDAMD
+        AgkBAQEGAAAABQAAAAMAAAADAAAAAgAAAAIAAAABAAAAAQAAAAIAAAACAAAAAwAAAAQBAQAFAQEBBgEB
+        AQYBAQEGAQEABQAAAAQAAAACAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAEAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAACAAAAAwAA
+        AAMAAAADAAAAAwAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAMAAAADAAAAAgAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAMAAAAEAQEABQICAQcCAgEHAQEBBgEBAAUAAAADAAAAAwAA
+        AAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAMAAAADAAAABAAAAAQAAAAEAAAABAAA
+        AAMAAAADAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAADAAAAAwAAAAMAAAADAAAAAwAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAACAAAAAgAAAAIAAAADAAAAAwAAAAQAAAAEAAAAAwAAAAMAAAACAAAAAgAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAwAAAAMAAAADAAAAAwAAAAMAAAACAAAAAgAA
+        AAIAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAA
+        AAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAACAAAAAgAAAAIAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAQAAAAEAAAABgAA
+        AQYAAAABAAAAAgAAAAIAAAACAAAAAgAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAgAAAAMAAAACAAAABQAAAggAAAABAAAAAQAA
+        AAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAwAAAAIAAAABAAAAAgAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AQYABA8bAA4eJAAGDxIAAAACAAACCAAAAAMAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAMABRAbAAQKDwAA
+        AAEAAAACAAAAAwAAAAIAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAA
+        AAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAABAAAAAQAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+        AAAAAAAAAAAAAAAAAAA=
+</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterScreen</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>Помощник Sepo</value>
+  </data>
+  <data name="&gt;&gt;timer1.Name" xml:space="preserve">
+    <value>timer1</value>
+  </data>
+  <data name="&gt;&gt;timer1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>AccManHelp</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>
